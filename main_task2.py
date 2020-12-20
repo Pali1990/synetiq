@@ -48,4 +48,3 @@ if __name__ == "__main__":
     all_stimulus = read_summarized_file(os.getcwd(),"all_stimulus.csv")
     merged_df = join(all_hr,all_stimulus)
     rmssd_score(merged_df)
-    #join(all_hr,all_stimulus).to_csv('task2_result.csv',sep=';',index=False)
